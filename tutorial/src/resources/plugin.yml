@@ -1,0 +1,10 @@
+name: Tutorial
+authors: [YourName]
+description: A tutorial on building spigot server
+version: 1.0
+#api-version: 1.18.1
+main: tutorial.Main
+commands:
+  tutorial:
+    description: This is a tutorial command!
+    usage: /tutorial
