@@ -1,7 +1,8 @@
 # spigot-plugin-tutorial
 
 # Prerequisites
-- Latest Java Development Kit version
+- Latest Java Development Kit
+- [Apache Maven](https://maven.apache.org/download.cgi) for building the plugin
 - Git Bash if you are on Windows
 
 # Tutorial
@@ -15,7 +16,7 @@
 ## Start your server
 - Run start server script `sh ./scripts/start-server.sh`
 
-## Trouble Updating Java ?
+## Trouble Updating Java?
 - On macOS you can run `brew install java` for the latest openJDK
 - Otherwise check [Oracle's webpage](https://www.oracle.com/java/technologies/downloads/) for downloads
 
