@@ -6,13 +6,13 @@
 # macOS Tutorial
 ## Creating a Spigot Server
 - Open your terminal and change your directory to /spigot-plugin-tutorial
-- Run build server script `sh build-server.sh`
+- Run build server script `sh ./scripts/build-server.sh`
 
 ## Compile your plugin
-- Run build plugin script `sh build-plugin.sh`
+- Run build plugin script `sh ./scripts/build-plugin.sh`
 
 ## Start your server
-- Run start server script `sh start-server.sh`
+- Run start server script `sh ./scripts/start-server.sh`
 
 ## Trouble Updating Java ?
 - If you have homebrew, use `brew install java` for latest openJDK
