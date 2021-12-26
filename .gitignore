@@ -1,3 +1,6 @@
+# ignore server folder
+/server/
+
 # build path ignore
 tutorial/target/
 

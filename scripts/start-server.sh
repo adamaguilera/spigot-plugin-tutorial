@@ -1,2 +1,6 @@
 #!/bin/sh
-java -Xmx1024M -Xms1024M -jar ./server/spigot-latest.jar nogui
+
+cd ./server || exit
+
+(java -Xmx1024M -Xms1024M -jar spigot-latest.jar nogui)
+
