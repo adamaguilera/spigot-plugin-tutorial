@@ -1,9 +1,10 @@
 # spigot-plugin-tutorial
 
 # Prerequisites
-- Latest java version
+- Latest Java Development Kit version
+- Git Bash if you are on Windows
 
-# macOS Tutorial
+# Tutorial
 ## Creating a Spigot Server
 - Open your terminal and change your directory to /spigot-plugin-tutorial
 - Run build server script `sh ./scripts/build-server.sh`
@@ -15,8 +16,8 @@
 - Run start server script `sh ./scripts/start-server.sh`
 
 ## Trouble Updating Java ?
-- If you have homebrew, use `brew install java` for latest openJDK
-- Otherwise check [Oracle's webpage](https://www.oracle.com/java/technologies/downloads/)
+- On macOS you can run `brew install java` for the latest openJDK
+- Otherwise check [Oracle's webpage](https://www.oracle.com/java/technologies/downloads/) for downloads
 
 # Purpose of this tutorial
 > I've started so many plugin ideas in Minecraft and the most difficult part is setting up the project.
