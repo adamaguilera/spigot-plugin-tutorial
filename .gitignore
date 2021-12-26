@@ -1,3 +1,6 @@
+# build path ignore
+tutorial/target/
+
 # IDEA ignore
 .idea/
 
