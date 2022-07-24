@@ -7,6 +7,7 @@ tutorial/target/
 # IDEA ignore
 .idea/
 *.iml
+.DS_Store
 
 # .gitignore Java template
 # Compiled class file

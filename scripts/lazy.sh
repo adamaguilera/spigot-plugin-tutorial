@@ -1,7 +1,4 @@
 #!/bin/sh
 
-# build plugin jar file
-sh ./scripts/build-plugin.sh
-
-# start server
-sh ./scripts/build-server.sh
+# build plugin jar file and if successful start server
+sh ./scripts/build-plugin.sh && sh ./scripts/start-server.sh

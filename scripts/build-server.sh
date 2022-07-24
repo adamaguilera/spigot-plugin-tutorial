@@ -6,6 +6,9 @@
 # this is the name of the temporary directory to build spigot
 dir=build-tools
 
+# make server dir if not present
+mkdir -p ./server
+
 # remove previous download folder if present, remove old latest.jar
 # as well as create build-tools folder
 # Removes any files starting with 'spigot' as well as the download folder.
