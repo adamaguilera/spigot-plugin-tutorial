@@ -1,4 +1,4 @@
-package bankapi.util.commands;
+package tutorial.util.commands;
 
 public interface CommandArgument {
     boolean isValid (final String argument);

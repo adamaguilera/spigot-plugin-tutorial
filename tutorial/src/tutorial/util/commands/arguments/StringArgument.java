@@ -1,8 +1,7 @@
-package bankapi.util.commands.arguments;
+package tutorial.util.commands.arguments;
 
-import bankapi.util.BankLogger;
-import bankapi.util.commands.CommandArgument;
-import lombok.Builder;
+import tutorial.util.TutorialLogger;
+import tutorial.util.commands.CommandArgument;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -10,7 +9,7 @@ import java.util.Locale;
 
 @RequiredArgsConstructor
 public class StringArgument implements CommandArgument {
-    final BankLogger logger = BankLogger.builder()
+    final TutorialLogger logger = TutorialLogger.builder()
             .SERVICE("STRING_ARGUMENT")
             .showDebug(true)
             .build();

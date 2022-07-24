@@ -1,6 +1,6 @@
-package bankapi.util.commands;
+package tutorial.util.commands;
 
-import bankapi.util.BankLogger;
+import tutorial.util.TutorialLogger;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.Nullable;
 
@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RequiredArgsConstructor
 public class CommandTree {
-    final BankLogger logger = BankLogger.builder()
+    final TutorialLogger logger = TutorialLogger.builder()
             .SERVICE("COMMAND_TREE")
             .showDebug(true)
             .build();

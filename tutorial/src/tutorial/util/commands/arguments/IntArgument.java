@@ -1,6 +1,6 @@
-package bankapi.util.commands.arguments;
+package tutorial.util.commands.arguments;
 
-import bankapi.util.commands.CommandArgument;
+import tutorial.util.commands.CommandArgument;
 import lombok.Getter;
 
 public class IntArgument implements CommandArgument {
