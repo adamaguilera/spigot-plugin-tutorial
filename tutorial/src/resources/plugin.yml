@@ -4,6 +4,9 @@ description: A tutorial on building spigot server
 version: 1.0
 main: tutorial.Main
 commands:
-  tutorial:
+  helloworld:
     description: This is a tutorial command!
-    usage: /tutorial
+    usage: /helloworld
+  config:
+    description: This shows the data in the config!
+    usage: /config

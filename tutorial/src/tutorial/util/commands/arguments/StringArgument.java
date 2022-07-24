@@ -9,10 +9,7 @@ import java.util.Locale;
 
 @RequiredArgsConstructor
 public class StringArgument implements CommandArgument {
-    final TutorialLogger logger = TutorialLogger.builder()
-            .SERVICE("STRING_ARGUMENT")
-            .showDebug(true)
-            .build();
+    final TutorialLogger logger = new TutorialLogger("STRING_ARGUMENT");
     final String CHECKING_VALIDITY_FOR_ARGUMENT = "Checking if passed argument %s matches string argument %s";
     final String argument;
     final boolean ignoreCaps;

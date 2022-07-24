@@ -1,11 +1,13 @@
 package tutorial;
 
-import org.bukkit.Bukkit;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import tutorial.util.TutorialLogger;
 
 public class GameListener implements Listener {
+    TutorialLogger logger = new TutorialLogger("GAME_LISTENER");
+    final String GAME_LISTENER_INTIALIZED = "GameListener has been initialized!";
+
     public GameListener () {
-        Bukkit.broadcastMessage("GameListener has been initalized!");
+        this.logger.console(GAME_LISTENER_INTIALIZED);
     }
 }

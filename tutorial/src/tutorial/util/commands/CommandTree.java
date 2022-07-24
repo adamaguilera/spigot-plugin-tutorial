@@ -11,10 +11,7 @@ import java.util.Optional;
 
 @RequiredArgsConstructor
 public class CommandTree {
-    final TutorialLogger logger = TutorialLogger.builder()
-            .SERVICE("COMMAND_TREE")
-            .showDebug(true)
-            .build();
+    final TutorialLogger logger = new TutorialLogger("COMMAND_TREE");
     final String MAX_DEPTH_COMMAND_SEARCH_RETURNING_COMMAND = "Index %d >= %d argument size, returning command here";
     final String SEARCHING_FOR_COMMAND_AT_INDEX = "Searching for command at index %d on argument %s";
     final String FOUND_VALID_MATCHING_ARGUMENTS = "Found %d valid matching arguments";
